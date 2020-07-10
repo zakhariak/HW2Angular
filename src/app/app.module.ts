@@ -4,14 +4,26 @@ import { FormsModule } from '@angular/forms'
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './homework1/header/header.component';
-import { MainComponent } from './homework1/main/main.component';
+//HOMEWORK1 <<<
+// import { HeaderComponent } from './homework1/header/header.component';
+// import { MainComponent } from './homework1/main/main.component';
+//>>>
+
+//HOMEWORK2 <<<
+import { Homework2Component } from './homework2/homework2.component';
+//>>>
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent,
-    MainComponent,
+    //HOMEWORK1 <<<
+    // HeaderComponent,
+    // MainComponent,
+    //>>>
+
+    //HOMEWORK2 <<<
+    Homework2Component,
+    //>>>
 
   ],
   imports: [

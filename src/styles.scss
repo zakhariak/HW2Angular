@@ -1,12 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+//HOMEWORK1 - start
+// * {
+//   margin: 0;
+//   padding: 0;
+//   box-sizing: border-box;
+//   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+// }
+
+// body {
+//   width: 100vw;
+//   height: 100vh;
+// }
+//HOMEWORK1 - end
+//HOMEWORK2 - start
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
+  font-family: sans-serif;
   width: 100vw;
   height: 100vh;
+  margin: 0;
+  padding: 50px 100px;
+  display: flex;
+  justify-content: space-between;
 }
+
+//HOMEWORK2 - end
